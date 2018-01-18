@@ -1,10 +1,10 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/
-title: "Technology"
-crawlertitle: "technology articles"
-summary: "mark down some technical detail"
+permalink: /posts/life
+title: "life"
+crawlertitle: "一线一幕思华年"
+summary: "路灯下的感叹."
 active: archive
 ---
 
