@@ -1,11 +1,12 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/
+permalink: /posts/tech/
 title: "Technology"
 crawlertitle: "technology articles"
 summary: "mark down some technical detail"
 active: archive
+tags : ['tech']
 ---
 
 {% for tag in site.tags %}

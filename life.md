@@ -1,9 +1,9 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/life
-title: "life"
-crawlertitle: "一线一幕思华年"
+permalink: /life/
+title: "一线一幕思华年"
+crawlertitle: "生活"
 summary: "路灯下的感叹."
 active: archive
 ---
@@ -15,7 +15,7 @@ active: archive
   <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
 
   <ul class="year">
-    {% for post in posts %}
+    {% for post in posts/life %}
       {% if post.tags contains t %}
         <li>
           {% if post.lastmod %}
