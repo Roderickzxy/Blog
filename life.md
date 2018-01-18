@@ -1,8 +1,8 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /life/
-title: "一线一幕思华年"
+permalink: /posts/life/
+title: "一弦一柱思华年"
 crawlertitle: "生活"
 summary: "路灯下的感叹."
 active: archive

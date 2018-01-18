@@ -6,7 +6,6 @@ title: "Technology"
 crawlertitle: "technology articles"
 summary: "mark down some technical detail"
 active: archive
-tags : ['tech']
 ---
 
 {% for tag in site.tags %}
