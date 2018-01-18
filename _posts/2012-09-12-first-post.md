@@ -1,14 +1,9 @@
 ---
-title: First Post
-author: Chris
+title: 开篇一文
+author: Roderick Zheng
 layout: post
 ---
-Lorem ipsum dolor sit amet, iusto ridens dictas te sed. Error latine vis et. Ex cum munere definitiones, ne quas debitis contentiones cum, epicurei constituam ea sit. Dicant aeterno dolorum ex eum, qui everti iisque consectetuer ea! Duo in falli similique, nec tritani accusam te. Enim sapientem intellegat te pri, nam at atqui accumsan vituperata.
-
-Sed id graeci feugiat. No meis summo consequat vel! Albucius phaedrum omittantur eos an, ex sit lorem possim perpetua. Usu et sumo posidonium, ut qui dicat sapientem tincidunt, et has consul oporteat torquatos! In qui fabulas facilisis, justo nonumes an his, quo vidisse nusquam facilisis no. Eam iriure mediocrem suavitate an?
-
-Quo te solum malorum prompta, porro oblique senserit cum et! Pro wisi cetero periculis ei, nam ullum dicit accusam ne, ad quo apeirian principes dissentiunt. An mea mucius vocent iisque? Vel eu altera consetetur, clita perfecto mea ad. Eos in vero ullum regione, ei veniam disputando pro, nam et iuvaret detracto voluptua.
-
-Ad tritani deleniti sit, ne per ubique habemus singulis. Pro at integre alienum mediocritatem, mea ad libris adipisci necessitatibus, nostro constituam sit te. Recusabo oportere et mea, case minimum deleniti no quo, deseruisse conclusionemque vis te. Nam ex iudicabit constituam accommodare, dicam singulis ex eos! Eu mea viderer ceteros repudiandae, id erat voluptatum mea, ut consul omittam convenire quo. Id justo ipsum mei, modus contentiones per et! At mel omnium lucilius instructior, vel quando graeco in, eos docendi periculis eloquentiam ut.
-
-Eam habemus aliquando ut. Id idque virtute antiopam duo, et idque falli incorrupte eos, in sea omnium instructior. Mei ex nostrud moderatius cotidieque, cu sea partiendo euripidis, eam no tollit doming! Has ne facilisi vulputate, aliquando disputationi mel eu. Ex pri diceret delectus intellegam, regione definiebas pro ex.
+创建此博客，首先也是因为看到别人在玩，把自己的学习总结的东西放在上面，然后有属于自己的域名来访问，觉得很神奇，所以我也突发奇想，想搞一个博客。
+然后我去了别人的博客的github上看，以为就是我只要简单地把github上的web项目加上github pages就好了。然后试了之后才发现，github上部署的应该都是要静态项目。所以又看了下github pages的一些解释，最后找到一些漂亮的模板来作用。
+好吧，第一次搞这种静态模板还是一脸懵逼，然后看着里面的解释慢慢一步步地调成自己想要的样子，其实这个过程也是挺好玩的，估计当初搞程序就是因为爱上了这种小小的成就感吧。现在初步捣鼓出点样子，其他东西后面再慢慢调了。
+最近忙的焦头烂额，感觉每天都基本离不开电脑，没有碰电脑就感觉自己好像在虚度光阴，我已经好久没有心安理得地去玩一场了吧，2018年一转眼也到了，我也26了，原本打算26岁搞定终身大事，但是广州的房价让我心灰意冷，微博的工资让我没有底气大手一挥买下小小的房，所以在此也祝愿自己可以如愿以偿吧，凡事还是不要抱怨太多，路总是要走的，船到桥头自然直，往前进吧少年。
