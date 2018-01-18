@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Voyager
 
 Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
@@ -71,3 +72,9 @@ If your blog is not in the root directory, you can include images with a relativ
 Build for production:
 
 `JEKYLL_ENV=production jekyll build`
+=======
+# Roderick's Blog
+Hey..This is my blog...
+
+The url of the blog is [https://roderickzxy.github.io/blog/](https://roderickzxy.github.io/blog/ "https://roderickzxy.github.io/blog/")
+>>>>>>> 2d09440f2cdd028758e3320f6337ecc3e0f0d55e
