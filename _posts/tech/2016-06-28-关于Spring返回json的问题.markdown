@@ -1,0 +1,32 @@
+---
+layout: post
+title:  ""
+crawlertitle: "关于Spring返回json的问题"
+summary: "Jekyll default page"
+date:   2017-06-19 11:27:56 +0700
+category: 积累，等待，蜕变
+tags: 'tech-Spring框架'
+author: Roderick
+---
+今天测试了一下搭建一个新的SpringMVC项目。  
+然后测试Controller返回String类型，加上了@ResponseBody，访问之后是可以正常访问到返回内容。  
+然后我改成返回Map类型，访问之后直接报错。  
+在这之前首先我是：  
+1.没有配置StringHttpMessageConvertor   
+2.maven没有把json包引入  
+{% highlight java %}
+严重: Servlet.service() for servlet [dispatcher] in context with path [/ElecEmp] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: No converter found for return value of type: class java.util.HashMap] with root cause  
+java.lang.IllegalArgumentException: No converter found for return value of type: class java.util.HashMap  
+      at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:187)  
+      at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:174)  
+      at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:81)  
+      at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:132)  
+      at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)  
+      at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)  
+      at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)  
+      at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)  
+      at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)  
+      at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)  
+      at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)  
+      at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) 
+{% endhighlight %}
