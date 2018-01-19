@@ -4,9 +4,9 @@ title:  "Welcome to Jekyll!"
 crawlertitle: "How to use jekyll"
 summary: "Jekyll default page"
 date:   2016-06-28 23:09:47 +0700
-categories: posts/tech
+categories: tech
 tags: 'Spring框架'
-author: redVi
+author: Roderick
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

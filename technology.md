@@ -1,8 +1,8 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts
-title: "Technology"
+permalink: /tech
+title: "技术拯救世界"
 crawlertitle: "technology articles"
 summary: "mark down some technical detail"
 active: archive
@@ -16,7 +16,7 @@ active: archive
 
   <ul class="year">
     {% for post in posts %}
-      {% if post.tags contains t %}
+      {% if post.tags contains t && t=="tech" %}
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
