@@ -3,7 +3,7 @@ bg: "tag.jpg"
 layout: page
 permalink: /tech
 title: "技术拯救世界"
-crawlertitle: "technology articles"
+crawlertitle: "技术"
 summary: "mark down some technical detail"
 active: archive
 ---

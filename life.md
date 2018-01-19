@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/life/
+permalink: /life/
 title: "一弦一柱思华年"
 crawlertitle: "生活"
 summary: "路灯下的感叹."
@@ -11,11 +11,13 @@ active: archive
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
-
+  {% assign category = t | truncate: 4, '' %}
+  {% if category=="life" %}
+  {% assign cate-tag = t | replace:'life-','' %}
+  <h2 class="category-key" id="{{ cate-tag | downcase }}">{{ cate-tag | capitalize }}</h2>
+  
   <ul class="year">
-    {% for post in posts/life %}
+    {% for post in posts %}
       {% if post.tags contains t %}
         <li>
           {% if post.lastmod %}
@@ -29,5 +31,5 @@ active: archive
       {% endif %}
     {% endfor %}
   </ul>
-
+  {% endif %}
 {% endfor %}
