@@ -16,7 +16,7 @@ active: archive
 
   <ul class="year">
     {% for post in posts %}
-      {% if post.tags contains t && t=="tech" %}
+      {% if post.tags contains t && post.category=="tech" %}
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
