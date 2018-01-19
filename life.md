@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "onbus.jpg"
 layout: page
 permalink: /life/
 title: "一弦一柱思华年"
