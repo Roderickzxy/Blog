@@ -11,8 +11,9 @@ active: archive
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-  <h4 id="t">{{t}}</h4>
-  {% if t[0]=="tech" %}
+  {% assign category = t | truncate: 4, '' %}
+  <h4>{{ category }}</h4>
+  {% if category=="tech" %}
 	  <h2 class="category-key" id="{{ t[1] | downcase }}">{{ t[1] | capitalize }}</h2>
 	  
 	  <ul class="year">
