@@ -42,3 +42,5 @@ sass:
 
 
 images: '/assets/images'
+
+article_attachedimages: '/assets/attached_images'
