@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "climbing.jpg"
 layout: page
 permalink: /tech
 title: "技术拯救世界"
