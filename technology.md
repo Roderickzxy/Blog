@@ -12,13 +12,12 @@ active: archive
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
   <h4 id="t">{{t}}</h4>
-  <h4 id="posts">{{posts}}</h4>
-  {% if t=="tech" %}
-	  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
+  {% if t[0]=="tech" %}
+	  <h2 class="category-key" id="{{ t[1] | downcase }}">{{ t[1] | capitalize }}</h2>
 	  
 	  <ul class="year">
 	    {% for post in posts %}
-	      {% if post.tags contains t %}
+	      {% if post.tags contains t[1] %}
 	        <li>
 	          {% if post.lastmod %}
 	            <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
