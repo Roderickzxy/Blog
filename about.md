@@ -1,10 +1,10 @@
 ---
 bg: "owl.jpg"
 layout: page
-title: "About"
+title: "关于"
 crawlertitle: "Why and how this blog was created"
 permalink: /about/
-summary: "About this blog"
+summary: "属于我个人的博客"
 active: about
 ---
 

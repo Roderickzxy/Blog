@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: page
-permalink: /posts/tech/
+permalink: /posts
 title: "Technology"
 crawlertitle: "technology articles"
 summary: "mark down some technical detail"
