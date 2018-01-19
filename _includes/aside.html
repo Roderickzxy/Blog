@@ -9,9 +9,9 @@
     <div class="cover-text">
       <div class="heading">
 
-        {% if page.tags %}
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+        {% if page.cataname %}
+          {% for cataname in page.cataname %}
+            {{ cataname | downcase }}
           {% endfor %}
         {% else %}
           {{ page.title }}
