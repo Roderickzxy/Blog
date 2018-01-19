@@ -11,10 +11,10 @@ active: archive
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-  <h4 id="site_tags">site.tags</h4>
-  <h4 id="tag">tag</h4>
-  <h4 id="t">t</h4>
-  <h4 id="posts">posts</h4>
+  <h4 id="site_tags">{{site.tags}}</h4>
+  <h4 id="tag">{{tag}}</h4>
+  <h4 id="t">{{t}}</h4>
+  <h4 id="posts">{{posts}}</h4>
   {% if t=="tech" %}
 	  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
 	  
