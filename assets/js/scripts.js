@@ -62,8 +62,8 @@
   function toggleImages() {
     [].forEach.call(images, function(img) {
       img.addEventListener('click', function(event) {
-        event.preventDefault();
 		if (!img.classList.contains('img-icon')){
+			event.preventDefault();
 			img.classList.toggle('img-popup');			
 			if (img.classList.contains('img-popup')) {
 			  img.style.cursor = 'zoom-out';
