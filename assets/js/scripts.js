@@ -63,8 +63,8 @@
     [].forEach.call(images, function(img) {
       img.addEventListener('click', function(event) {
         event.preventDefault();
-        img.classList.toggle('img-popup');
-		if (!img.classList.contains('img-icon')){			
+		if (!img.classList.contains('img-icon')){
+			img.classList.toggle('img-popup');			
 			if (img.classList.contains('img-popup')) {
 			  img.style.cursor = 'zoom-out';
 			  img.style.maxHeight = imageHeight + 'px';
